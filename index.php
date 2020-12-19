@@ -11,7 +11,18 @@
     <title>Git dan Github #9</title>
   </head>
   <body>
-    <h1>Git dan Github #9</h1>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-6">
+            <h1>Git dan Github #9</h1>
+        </div>
+
+        <div class="col-sm-6">
+            <h1>Git dan Github #9</h1>
+        </div>
+      </div>
+    </div>
 
     <!-- Option 1: Bootstrap Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
