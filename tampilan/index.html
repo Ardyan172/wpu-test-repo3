@@ -1,0 +1,239 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <!-- CSS saya -->
+    <link rel="stylesheet" href="../bootstrap-4.5.0-dist/css/style.css">
+
+    <title>My Portfolio</title>
+  </head>
+  <body class="mt-5">
+  <!-- class mt-5 di dapatkan dari menu ULTILITIES lalu di dalamnya ada menu SPACING -->
+
+	
+	<!-- NAVBAR -->
+	<nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-secondary">
+		<div class="container">
+		<!-- Tambahkan class container secara manual untuk menggeser navbar ke kanan -->
+		<!-- class fixed-top agar elementnya diam ditempat -->
+		  <a class="navbar-brand" href="#">Navbar</a>
+		  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+		    <span class="navbar-toggler-icon"></span>
+		  </button>
+		  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+		    <div class="navbar-nav">
+		      <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
+		      <a class="nav-item nav-link" href="#">Tentang</a>
+		      <a class="nav-item nav-link" href="#">Portfolio</a>
+		      <a class="nav-item nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Contact</a>
+		    </div>
+		  </div>
+		</div>
+	</nav>
+	<!-- Akhir NAVBAR -->
+
+	
+	<!-- JUMBOTRON -->
+	<div class="jumbotron jumbotron-fluid">
+	  <div class="container text-center">
+	  	<img class="img-thumbnail" src="../gambar/jumbotron/background.jpg" width="45%" alt="Background foto">
+	  	<!-- class rounded-circle untuk membuat gambar menjadi bulat sempurna -->
+	    <h2 class="display-4 mt-3 idnTimes">IDN Times</h2>
+	    <!-- class mt-3 artinya margin-top sebesar 3 -->
+	    <p class="lead mb-5">Selamat datang di Website IDN Times</p>
+	    <div class="clear"></div>
+	  </div>
+	</div>
+	<!-- Akhir JUMBOTRON -->
+
+
+	<!-- About -->
+	<section class="Tentang" id="Tentang">
+		<div class="container">
+		<!-- setiap kalian ingin bikin sesuatu pastikan bikin dulu class containernya -->
+			<div class="row">
+			<!-- sistem grid selalu membutuhkan class row -->
+				<div class="col-sm-12">
+					<h2 class="text-center mt-0">Tentang</h2>
+					<hr class="mb-5">
+					<!-- class mt-5 didapatkan dari menu utilities lalu di menu spacing -->
+				</div>
+			</div>
+
+			<div class="row text-justify justify-content-center">
+			<!-- jadi berapa pun COLUMN nya sama si ROW nya akan dibikin ditengah -->
+				<div class="col-sm-5 mb-0">
+					<!-- kalau kalian bikin COLUMN nya tidak 12 tapi ingin element nya berada ditengah, kalian harus tambahkan class di ROW nya namanya class justify-content-center -->
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem laudantium voluptate aliquid, voluptatibus eaque neque cum asperiores laborum dolore quibusdam fugit sunt voluptas sed assumenda tenetur atque, enim cupiditate quisquam!</p>
+				</div>
+				<div class="col-sm-5 mb-0">
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit illum ullam perspiciatis, officia exercitationem ipsum tenetur odit, ea at. Numquam illo perferendis ipsam accusantium sed fuga cum earum culpa debitis?</p>
+				</div>
+			</div>
+
+			<div class="row text-justify justify-content-center">
+				<div class="col-sm-5">
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel autem labore consequuntur omnis voluptatibus pariatur deserunt, iure ut quaerat expedita. Similique incidunt earum blanditiis nisi. Eum fugiat quae, est nostrum?</p>
+				</div>
+
+				<div class="col-sm-5">
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt incidunt dolores omnis rerum odit sequi mollitia debitis repellat, dolorum cupiditate exercitationem non inventore, earum quis voluptatum. Consectetur, alias voluptates enim.</p>
+				</div>
+			</div>
+		</div>
+	</section>	
+	<!-- Akhir Tentang -->
+
+
+	<!-- Portolio -->
+	<section class="portfolio text-center" id="portfolio">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-12">
+					<h2 class="mt-4">Portfolio</h2>
+					<hr class="mb-5">
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="col-md-4">
+					<a href="">
+						<div class="card mb-4">
+							<!-- class card di dapatkan di menu COMPONENTS lalu di di menu CARD -->
+							<!-- mb-5 berarti margin-bottom -->
+						  	<img class="card-img-top" src="../gambar/portfolio/thumbnail/foto1.jpg" alt="Card image cap">
+						  	<div class="card-body">
+						    	<p>Beberapa teks dengan cepat untuk membangun judul kartu dan membentuk sebagian besar konten kartu</p>
+						  	</div>
+						</div>
+					</a>
+				</div>
+
+				<div class="col-md-4">
+					<a href="">
+						<div class="card">
+							<img class="card-img-top" src="../gambar/portfolio/thumbnail/foto2.jpg" alt="foto1">	
+							<div class="card-body">
+								<p>Beberapa teks dengan cepat untuk membangun judul kartu dan membentuk sebagian besar konten kartu</p>
+							</div>
+						</div>	
+					</a>
+				</div>	
+
+				<div class="col-md-4">
+					<a href="">
+						<div class="card">
+							<img class="card-img-top" src="../gambar/portfolio/thumbnail/foto3.jpg" alt="foto1">
+							<div class="card-body">
+								<p>Beberapa teks dengan cepat untuk membangun judul kartu dan membentuk sebagian besar konten kartu</p>
+							</div>
+						</div>		
+					</a>
+				</div>				
+			</div>
+
+			<div class="row">
+				<div class="col-md-4">
+					<a href="">
+						<div class="card">
+							<img class="card-img-top" src="../gambar/portfolio/thumbnail/foto4.jpg" alt="foto1">	
+							<div class="card-body">
+								<p>Beberapa teks dengan cepat untuk membangun judul kartu dan membentuk sebagian besar konten kartu</p>
+							</div>
+						</div>	
+					</a>
+				</div>
+
+				<div class="col-md-4">
+					<a href="">
+						<div class="card">
+							<img class="card-img-top" src="../gambar/portfolio/thumbnail/foto5.jpg" alt="">
+							<div class="card-body">
+								<p>Beberapa teks dengan cepat untuk membangun judul kartu dan membentuk sebagian besar konten kartu</p>
+							</div>
+						</div>
+					</a>
+				</div>	
+
+				<div class="col-md-4">
+					<a href="">
+						<div class="card">
+							<img class="card-img-top" src="../gambar/portfolio/thumbnail/foto6.jpg" alt="foto1">
+							<div class="card-body">
+								<p>Beberapa teks dengan cepat untuk membangun judul kartu dan membentuk sebagian besar konten kartu</p>
+							</div>
+						</div>		
+					</a>
+				</div>				
+			</div>
+		</div>
+	</section>
+
+
+	<!-- Kontak -->
+	<section class="kontak" id="kontak">
+		<div class="container">
+			<div class="row justify-content-center mt-5">
+			<!-- jadi berapa pun COLUMN nya sama si ROW nya akan dibikin ditengah -->
+				<div class="col-sm-4">
+					<div class="card text-white bg-success mb-3">
+					  	<div class="card-body">
+					    	<h5 class="card-title">Please contact me</h5>
+					    	<p class="card-text">Silahkan masukkan identitas anda di Formulir</p>
+					  	</div>
+					</div>
+
+					<ul class="list-group">
+						  <li class="list-group-item active"><h3>Lokasi</h3></li>
+						  <li class="list-group-item">Indonesia</li>
+						  <li class="list-group-item">Pontianak</li>
+						  <li class="list-group-item">Jalan Tanjung Raya 1</li>
+					</ul>
+				</div>
+
+				<div class="col-sm-6">
+					<h2>Kontak kami</h2>
+
+					<form>
+						  <div class="form-group">
+							    <label for="exampleInputEmail1">Email address</label>
+							    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+							    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+						  </div>
+						  <div class="form-group">
+							    <label for="exampleInputPassword1">Password</label>
+							    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+						  </div>
+						  <button type="submit" class="btn btn-primary">Submit</button>
+					</form>
+				</div>
+			</div>
+		</div>
+	</section>
+
+
+	<footer class="bg-dark text-white text-center">
+		<!-- bg-dark artinya background berwarna hitam -->
+		<div class="container">
+			<div class="row pt-3">
+				<div class="col-sm-12">
+					<p>Copyright 2020</p>
+				</div>
+			</div>
+		</div>
+	</footer>
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+  </body>
+</html>
